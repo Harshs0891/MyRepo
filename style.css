@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+body{
+    border: 2px solid black;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 32.5%;
+    margin-top: 2%;
+    border-color: transparent;
+    box-shadow: 0px 0px 6px 4px gray;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+header :first-child{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+header :last-child{
+    line-height: 18px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.inp :first-child{
+    position: relative;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(237, 236, 236);
+    height: 35px;
+    width: 47%;
+    border-color: aliceblue;
+    align-items: center;
+    padding: 10px;
+}
+.inp :last-child{
+    position: relative;
+    margin: 5px;
+    border-color: aliceblue;
+    background-color: rgb(237, 236, 236);
+    border-radius: 5px;
+    height: 35px;
+    width: 48.1%;
+    align-items: center;
+    padding: 10px;  
+}
+#mobile{
+    position: relative;
+    border-color: aliceblue;
+    /* margin-left: 5px; */
+    width: 98%;
+    padding: 5px;
+    background-color: rgb(237, 236, 236);
+    margin: 6px;
+    /* align-items: center; */
+    /* text-align: center; */
+    border-radius: 5px;
+    height: 35px;
+}
+#pass{
+    position: relative;
+    margin: 6px;
+    border-color: aliceblue;
+    border-radius: 5px;
+    height: 35px;
+    width: 98%;
+    background-color: rgb(237, 236, 236);
+    align-items: center;
+    padding: 10px; 
+    
+}
+.dob h7{
+    position: relative;
+    margin: 5px;
+    font-size: 17px;
+    
+}
+#day{
+    width: 30%;
+    height: 35px;
+    /* background-color: rgb(237, 236, 236); */
+    margin: 6px;
+    border-color: rgb(180, 183, 185);
+    border-radius: 5px;
+}
+#month{
+    width: 30%;
+    border-color: rgb(180, 183, 185);
+    height: 35px;
+    margin: 6px;
+    border-radius: 5px;
+    /* background-color: rgb(237, 236, 236); */
+}
+#year{
+    width: 30%;
+    height: 35px;
+    border-color: rgb(180, 183, 185);
+    margin: 6px;
+    border-radius: 5px;
+    /* background-color: rgb(237, 236, 236); */
+}
+.gender{
+    height: 70px;
+    width: 100%;
+}
+.gender h8{
+    position: relative;
+    margin: 5px;
+    /* margin-bottom: 12px; */
+    line-height: 45px;
+    font-size: 17px;
+
+}
+.gender #female{
+    margin: 6px;
+    margin-right: 5px;
+    border: 1px solid rgb(180, 183, 185);
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    padding: 7px;
+    /* line-height: 30px; */
+}
+.gender #f{
+    padding: 7px;
+    text-align: center;
+    /* margin-top: 6px; */
+    margin-left: 75px;
+    margin-right: 10px;
+}
+.gender #male{
+    margin-left: 4px;
+    margin-right: 2px;
+    border: 1px solid rgb(180, 183, 185);
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    padding: 7px;
+}
+.gender #m{
+    padding: 7px;
+    text-align: center;
+    /* margin-top: 6px; */
+    margin-left: 60px;
+    margin-right: 10px;
+}
+.gender #custom{
+    margin: 6px;
+    margin-right: 15px;
+    border: 1px solid rgb(180, 183, 185);
+    border-radius: 5px;
+    width: 170px;
+    height: 30px;
+    padding: 7px;
+}
+.gender #c{
+    padding: 7px;
+    text-align: center;
+    /* margin-top: 6px; */
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.lmore{
+    height: 55px;
+    font-size: 15px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+.lmore a{
+    text-decoration: none;
+}
+.bottom{
+    height: 55px;
+    font-size: 14px;
+    margin: 6px;
+}
+.bottom a{
+    text-decoration: none;
+}
+button{
+    text-align: center;
+    width: 170px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(11, 147, 11);
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 176px;
+    transition: 0.3s;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: rgb(161, 151, 151);
+    cursor: pointer;
+}
