@@ -1,0 +1,8 @@
+1. git remote add origin ---repo link -----
+2. create empty repo
+3. 2commands to login
+  3.1 git config --global user.name "harshs0891"
+  3.2 git config --global user.email "harshs0891@gmail.com"
+4. git push -u origin master
+   4.1 username : harshs0891
+   4.2 password : setting-->tokens copy paste
